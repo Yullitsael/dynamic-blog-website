@@ -1,0 +1,5 @@
+created styles.css
+linked index to styles.css
+added some code to index.css
+creates script.js
+added a script that loads the blog posts from global storage and displays it
