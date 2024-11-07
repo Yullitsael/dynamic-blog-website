@@ -1,0 +1,62 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: 3px solid #fff
+}
+
+main {
+    padding: 20px;
+}
+
+article, section, aside {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    height: 5%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@media (max-width:768px)
+{
+    nav ul il
+    {
+        display: block;
+        margin: 10px 0;
+    }
+
+    video, audio
+    {
+        width: 100%;
+        height: auto;
+    }
+}
